@@ -33,7 +33,6 @@ h1{
 p{
     line-height: 2;
     font-size: 0.8rem;
-
     color:hsla(0, 0%, 100%, 0.75);
 }
 ul{
@@ -45,10 +44,8 @@ ul{
     background: hsl(290, 64%, 61%);
     height: 300px;
     background-image: linear-gradient(
-        105deg,hsl(233, 47%, 7%,0.5),hsl(233, 47%, 7%,0.5)), url(./images/image-header-mobile.jpg);
+        105deg,hsl(277, 64%, 61%, 0.7),hsl(277, 64%, 61%,0.7)), url(./images/image-header-mobile.jpg);
     background-size: cover;
-  
-
 }
   
 
@@ -87,6 +84,7 @@ h1{
         flex-direction: row-reverse;
         width: 70%;
         margin: auto;
+        max-width: none;
     }
 
 
@@ -110,6 +108,11 @@ h1{
     .image{
         width: 50%;
         border-radius: 0 10px 10px 0;
+        background: hsl(290, 64%, 61%);
+        height: unset;
+        background-image: linear-gradient(
+            105deg,hsl(277, 64%, 61%, 0.7),hsl(277, 64%, 61%,0.7)), url(./images/image-header-mobile.jpg);
+        background-size: cover;
 
     }
     .content{
